@@ -8,12 +8,11 @@ class MainWindow:
         self.__input_file = input_file
 
     def __load_window(self):
-        # self.__background_color = "orchid1"
         self.__background_color = "light goldenrod yellow"
         self.__root = Tk()
         self.__root.title("Laba 1")
         self.__root.geometry("500x400")
-        self.__root.minsize(500, 400)
+        self.__root.minsize(420, 200)
         self.__root.configure(background=self.__background_color)
         self.__root.attributes('-topmost', True)
         self.__root.state('zoomed')
@@ -42,5 +41,3 @@ class MainWindow:
 
 if __name__ == "__main__":
     MainWindow("data/rules.json").execute()
-
-# tkinter._test()
