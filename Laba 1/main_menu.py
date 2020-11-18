@@ -25,8 +25,8 @@ class MainMenu:
         self.__info.grid()
 
     def __play_button_callback(self):
-        self.__game_controller.execute()
         self.__hide_all()
+        self.__game_controller.execute()
 
     def __info_button_callback(self):
         self.__hide_all()
