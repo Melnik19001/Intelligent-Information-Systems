@@ -1,0 +1,326 @@
+[
+  {
+    "if": [
+      {
+        "condition": "кожура",
+        "consequence": "толстая"
+      }
+    ],
+    "then": {
+      "target": "плод",
+      "value": "померанец"
+    }
+  },
+  {
+    "if": [
+      {
+        "condition": "кожура",
+        "consequence": "тонкая"
+      },
+      {
+        "condition": "тип плода",
+        "consequence": "односемянный"
+      }
+    ],
+    "then": {
+      "target": "плод",
+      "value": "сочная костянка"
+    }
+  },
+  {
+    "if": [
+      {
+        "condition": "кожура",
+        "consequence": "тонкая"
+      },
+      {
+        "condition": "тип плода",
+        "consequence": "многосемянный"
+      }
+    ],
+    "then": {
+      "target": "плод",
+      "value": "яблоко"
+    }
+  },
+  {
+    "if": [
+      {
+        "condition": "плод",
+        "consequence": "померанец"
+      },
+      {
+        "condition": "цвет",
+        "consequence": "зеленый"
+      },
+      {
+        "condition": "вкус",
+        "consequence": "кислый"
+      }
+    ],
+    "then": {
+      "target": "фрукт",
+      "value": "лайм"
+    }
+  },
+  {
+    "if": [
+      {
+        "condition": "плод",
+        "consequence": "померанец"
+      },
+      {
+        "condition": "цвет",
+        "consequence": "зеленый"
+      },
+      {
+        "condition": "вкус",
+        "consequence": "сладкий"
+      }
+    ],
+    "then": {
+      "target": "фрукт",
+      "value": "джекфрут"
+    }
+  },
+  {
+    "if": [
+      {
+        "condition": "плод",
+        "consequence": "померанец"
+      },
+      {
+        "condition": "цвет",
+        "consequence": "оранжевый"
+      },
+      {
+        "condition": "вкус",
+        "consequence": "кислый"
+      }
+    ],
+    "then": {
+      "target": "фрукт",
+      "value": "апельсин"
+    }
+  },
+  {
+    "if": [
+      {
+        "condition": "плод",
+        "consequence": "померанец"
+      },
+      {
+        "condition": "цвет",
+        "consequence": "оранжевый"
+      },
+      {
+        "condition": "вкус",
+        "consequence": "сладкий"
+      }
+    ],
+    "then": {
+      "target": "фрукт",
+      "value": "углифрут"
+    }
+  },
+  {
+    "if": [
+      {
+        "condition": "плод",
+        "consequence": "померанец"
+      },
+      {
+        "condition": "цвет",
+        "consequence": "желтый"
+      },
+      {
+        "condition": "вкус",
+        "consequence": "кислый"
+      }
+    ],
+    "then": {
+      "target": "фрукт",
+      "value": "лимон"
+    }
+  },
+  {
+    "if": [
+      {
+        "condition": "плод",
+        "consequence": "померанец"
+      },
+      {
+        "condition": "цвет",
+        "consequence": "желтый"
+      },
+      {
+        "condition": "вкус",
+        "consequence": "сладкий"
+      }
+    ],
+    "then": {
+      "target": "фрукт",
+      "value": "помело"
+    }
+  },
+  {
+    "if": [
+      {
+        "condition": "плод",
+        "consequence": "сочная костянка"
+      },
+      {
+        "condition": "цвет",
+        "consequence": "зеленый"
+      },
+      {
+        "condition": "вкус",
+        "consequence": "сладкий"
+      }
+    ],
+    "then": {
+      "target": "фрукт",
+      "value": "авокадо"
+    }
+  },
+  {
+    "if": [
+      {
+        "condition": "плод",
+        "consequence": "сочная костянка"
+      },
+      {
+        "condition": "цвет",
+        "consequence": "оранжевый"
+      },
+      {
+        "condition": "вкус",
+        "consequence": "сладкий"
+      }
+    ],
+    "then": {
+      "target": "фрукт",
+      "value": "персик"
+    }
+  },
+  {
+    "if": [
+      {
+        "condition": "плод",
+        "consequence": "сочная костянка"
+      },
+      {
+        "condition": "цвет",
+        "consequence": "желтый"
+      },
+      {
+        "condition": "вкус",
+        "consequence": "кислый"
+      }
+    ],
+    "then": {
+      "target": "фрукт",
+      "value": "желтая вишня"
+    }
+  },
+  {
+    "if": [
+      {
+        "condition": "плод",
+        "consequence": "сочная костянка"
+      },
+      {
+        "condition": "цвет",
+        "consequence": "желтый"
+      },
+      {
+        "condition": "вкус",
+        "consequence": "сладкий"
+      }
+    ],
+    "then": {
+      "target": "фрукт",
+      "value": "абрикос"
+    }
+  },
+  {
+    "if": [
+      {
+        "condition": "плод",
+        "consequence": "яблоко"
+      },
+      {
+        "condition": "цвет",
+        "consequence": "зеленый"
+      },
+      {
+        "condition": "вкус",
+        "consequence": "кислый"
+      }
+    ],
+    "then": {
+      "target": "фрукт",
+      "value": "киви"
+    }
+  },
+  {
+    "if": [
+      {
+        "condition": "плод",
+        "consequence": "яблоко"
+      },
+      {
+        "condition": "цвет",
+        "consequence": "зеленый"
+      },
+      {
+        "condition": "вкус",
+        "consequence": "сладкий"
+      }
+    ],
+    "then": {
+      "target": "фрукт",
+      "value": "груша"
+    }
+  },
+  {
+    "if": [
+      {
+        "condition": "плод",
+        "consequence": "яблоко"
+      },
+      {
+        "condition": "цвет",
+        "consequence": "оранжевый"
+      },
+      {
+        "condition": "вкус",
+        "consequence": "сладкий"
+      }
+    ],
+    "then": {
+      "target": "фрукт",
+      "value": "хурма"
+    }
+  },
+  {
+    "if": [
+      {
+        "condition": "плод",
+        "consequence": "яблоко"
+      },
+      {
+        "condition": "цвет",
+        "consequence": "желтый"
+      },
+      {
+        "condition": "вкус",
+        "consequence": "сладкий"
+      }
+    ],
+    "then": {
+      "target": "фрукт",
+      "value": "дыня"
+    }
+  }
+]
