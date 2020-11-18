@@ -10,5 +10,6 @@ def create_button(root, x, y, text, command=None, background_color="seagreen1"):
         borderless=True,
         font=("Times New Roman", 20, "italic"),
     )
-    button.grid(row=x, column=y, padx=(0, 0))
+    if x and y:
+        button.grid(row=x, column=y, padx=(0, 0))
     return button

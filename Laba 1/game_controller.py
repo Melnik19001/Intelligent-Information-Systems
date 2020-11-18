@@ -2,8 +2,10 @@ from tkinter import *
 import json
 from collections import defaultdict
 
+from utils import *
+
 class GameController:
-    def __init__(self, root, input_file, background_color):
+    def __init__(self, root, input_file, background_color, back_to_main_menu_callback):
         self.__root = root
         self.__input_file = input_file
         self.__background_color = background_color
@@ -43,11 +45,22 @@ class GameController:
             font=("Times New Roman", 22, "italic")
         )
 
+
+        def back_to_menu_button_callback():
+            self.__hide_all()
+            back_to_main_menu_callback()
+        self.__back_to_menu_button = \
+            create_button(
+                self.__root, None, None,
+                "Вернуться в главное меню", command=back_to_menu_button_callback)
+
         self.__hide_all()
 
     def __hide_all(self):
         self.__label.grid_remove()
         self.__question_frame.grid_remove()
+        self.__result_label.grid_remove()
+        self.__back_to_menu_button.grid_remove()
 
     def __show_all(self):
         self.__label.grid()
@@ -59,6 +72,7 @@ class GameController:
         else:
             self.__result_text.set("Неизвестный современной науке фрукт :с")
         self.__result_label.grid(row=1, column=1)
+        self.__back_to_menu_button.grid(row=2, column=1, pady=(20, 0))
 
     def __precalc_options(self, rules):
         options = defaultdict(set)
